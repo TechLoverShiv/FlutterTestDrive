@@ -92,7 +92,7 @@ class HomePage extends StatelessWidget {
             ),
             ListTile(
               title: Text("TATA Safari Decor"),
-              subtitle: Text("TATA Safari Decor is a heavy duty SUV"),
+              subtitle: Text("TATA Safari Decor is a heavy duty mostly used SUV"),
               leading: CircleAvatar(
                 child: Text("4"),
               ),
