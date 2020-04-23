@@ -22,7 +22,7 @@ class HomePage extends StatelessWidget {
       ),
       body: Center(
         child: Text(
-          "Welcome to Test Ride Booking",
+          "Welcome to Auto Test Ride Booking",
           textAlign: TextAlign.center,
           textScaleFactor: 2,
           style: TextStyle(
@@ -49,7 +49,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
             ListTile(
-              title: Text("TATA Hexa"),
+              title: Text("TATA HEXA"),
               subtitle: Text("HEXA is a SUV vehicle ceated by TATA for Indian Riders"),
               leading: CircleAvatar(
                 child: Text("1"),
@@ -63,7 +63,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
             ListTile(
-              title: Text("TATA Harrier"),
+              title: Text("TATA HARRIER"),
               subtitle: Text("Harrier is a brand new SUV by TATA"),
               leading: CircleAvatar(
                 child: Text("2"),
@@ -91,7 +91,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
             ListTile(
-              title: Text("TATA Safari Decor"),
+              title: Text("TATA SAFARI DECOR"),
               subtitle: Text("TATA Safari Decor is a heavy duty mostly used SUV"),
               leading: CircleAvatar(
                 child: Text("4"),
