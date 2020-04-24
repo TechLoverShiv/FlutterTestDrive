@@ -40,7 +40,7 @@ class HomePage extends StatelessWidget {
           children: <Widget>[
             UserAccountsDrawerHeader(
               accountEmail: Text(
-                "testride.tata@gmail.com",
+                "testride.tata@tataadmin.in",
               ),
               accountName: Text("TATA MOTORS"),
               currentAccountPicture: CircleAvatar(
