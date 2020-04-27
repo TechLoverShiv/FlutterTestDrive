@@ -24,7 +24,7 @@ class HomePage extends StatelessWidget {
         child: Text(
           "Welcome to Auto Test Ride Booking",
           textAlign: TextAlign.center,
-          textScaleFactor: 2,
+          textScaleFactor: 3,
           style: TextStyle(
             fontWeight: FontWeight.bold,
           ),
@@ -40,7 +40,7 @@ class HomePage extends StatelessWidget {
           children: <Widget>[
             UserAccountsDrawerHeader(
               accountEmail: Text(
-                "testride.tata@tataadmin.in",
+                "testride@tataadmin.in",
               ),
               accountName: Text("TATA MOTORS"),
               currentAccountPicture: CircleAvatar(
