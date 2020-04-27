@@ -17,7 +17,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "Test Ride Registration",
+          "Test Ride Registration forFree",
         ),
       ),
       body: Center(
@@ -91,7 +91,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
             ListTile(
-              title: Text("TATA SAFARI DECOR"),
+              title: Text("SAFARI DECOR"),
               subtitle: Text("TATA Safari Decor is a heavy duty mostly used SUV"),
               leading: CircleAvatar(
                 child: Text("4"),
