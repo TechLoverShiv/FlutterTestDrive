@@ -40,7 +40,7 @@ class HomePage extends StatelessWidget {
           children: <Widget>[
             UserAccountsDrawerHeader(
               accountEmail: Text(
-                "testride@tataadmin.in",
+                "ridetest@tatamotors.in",
               ),
               accountName: Text("TATA MOTORS"),
               currentAccountPicture: CircleAvatar(
@@ -93,6 +93,20 @@ class HomePage extends StatelessWidget {
             ListTile(
               title: Text("SAFARI DECOR"),
               subtitle: Text("TATA Safari Decor is a heavy duty mostly used SUV"),
+              leading: CircleAvatar(
+                child: Text("4"),
+              ),
+              trailing: IconButton(
+                icon: Icon(
+                  Icons.delete,
+                  color: Colors.red,
+                ),
+                onPressed: () {},
+              ),
+            ),
+               ListTile(
+              title: Text("TATA Aria"),
+              subtitle: Text("TATA Aria is a 8 seeter car with maximum boot capacity"),
               leading: CircleAvatar(
                 child: Text("4"),
               ),
