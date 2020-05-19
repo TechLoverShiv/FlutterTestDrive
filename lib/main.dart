@@ -105,8 +105,8 @@ class HomePage extends StatelessWidget {
               ),
             ),
                ListTile(
-              title: Text("TATA Aria"),
-              subtitle: Text("TATA Aria is a 8 seeter car with maximum boot capacity"),
+              title: Text("TATA ARIA"),
+              subtitle: Text("TATA ARIA is a 8 seeter car with maximum boot capacity"),
               leading: CircleAvatar(
                 child: Text("4"),
               ),
