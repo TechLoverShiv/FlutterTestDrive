@@ -50,7 +50,7 @@ class HomePage extends StatelessWidget {
             ),
             ListTile(
               title: Text("TATA HEXA"),
-              subtitle: Text("HEXA is a SUV vehicle manufactured by TATA for Indian Riders"),
+              subtitle: Text("HEXA is a SUV vehicle manufactured by TATA Motors for Indian Riders"),
               leading: CircleAvatar(
                 child: Text("1"),
               ),
