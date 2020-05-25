@@ -17,7 +17,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "Test Ride Registration forFree",
+          "Test Ride Registration",
         ),
       ),
       body: Center(
