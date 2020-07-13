@@ -104,6 +104,20 @@ class HomePage extends StatelessWidget {
                 onPressed: () {},
               ),
             ),
+             ListTile(
+              title: Text("Swift Dezire"),
+              subtitle: Text("Maruti Suzuki Swift Dezire is a MUV for India"),
+              leading: CircleAvatar(
+                child: Text("5"),
+              ),
+              trailing: IconButton(
+                icon: Icon(
+                  Icons.delete,
+                  color: Colors.red,
+                ),
+                onPressed: () {},
+              ),
+            ),
                ListTile(
               title: Text("TATA ARIA"),
               subtitle: Text("TATA ARIA is a 8 seeter car with maximum boot capacity"),
